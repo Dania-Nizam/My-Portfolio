@@ -80,7 +80,7 @@ export default function Home() {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-pink-500 blur-[90px] opacity-100 z-0 animate-spin-slow"></div>
             <div className="relative z-10 rounded-full overflow-hidden border-4 border-white shadow-[0_10px_30px_rgba(0,0,0,0.6)] ring-4 ring-purple-400/40 hover:ring-pink-500/60 hover:shadow-blue-400 transition-all duration-300">
-              import Image from "next/image";
+              
               <Image
                 src="/dania.jpg"
                 alt="Dania"

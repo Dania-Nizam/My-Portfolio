@@ -111,18 +111,16 @@ export default function Chatbot() {
                       msg.type === "user" ? "flex-row-reverse" : ""
                     }`}
                   >
-                    import Image from "next/image";
-
-<Image
-  src={msg.type === "user" ? "/user-avatar.png" : "/dania.jpg"}
-  alt="avatar"
-  width={24}
-  height={24}
-  className="w-6 h-6 rounded-full object-cover border-2 border-pink-400"
-/>
-
-
-
+                    
+                    <Image
+                      src={
+                        msg.type === "user" ? "/user-avatar.png" : "/dania.jpg"
+                      }
+                      alt="avatar"
+                      width={24}
+                      height={24}
+                      className="w-6 h-6 rounded-full object-cover border-2 border-pink-400"
+                    />
                     <div
                       className={`px-3 py-2 rounded-lg max-w-[75%] ${
                         msg.type === "user"
@@ -140,10 +138,13 @@ export default function Chatbot() {
               {isTyping && (
                 <div className="flex justify-start">
                   <div className="flex items-center gap-2">
-                    <img
+                    import Image from "next/image";
+                    <Image
                       src="/dania.jpg"
-                      className="w-6 h-6 rounded-full object-cover border-2 border-pink-400"
+                      width={24} // equivalent to w-6 (6 * 4px)
+                      height={24} // equivalent to h-6 (6 * 4px)
                       alt="avatar"
+                      className="rounded-full object-cover border-2 border-pink-400"
                     />
                     <div className="bg-white/20 px-3 py-2 rounded-lg text-white animate-pulse">
                       <span className="dots">Typing...</span>
