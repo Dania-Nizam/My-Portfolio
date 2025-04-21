@@ -185,7 +185,7 @@ export default function CV() {
                       href="tel:+923488293701"
                       className="underline hover:text-blue-300 transition-colors"
                     >
-                      +92 348 8293701
+                      +92--------
                     </a>
                   ),
                 },
