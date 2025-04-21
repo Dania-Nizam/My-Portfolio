@@ -182,7 +182,7 @@ export default function CV() {
                   label: "Phone:",
                   value: (
                     <a
-                      href="tel:+923488293701"
+                      href="tel:+---"
                       className="underline hover:text-blue-300 transition-colors"
                     >
                       +92--------
