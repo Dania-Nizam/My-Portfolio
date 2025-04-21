@@ -1,0 +1,31 @@
+Name: Dania
+Profession: Frontend Web Developer | Next.js Developer | Generative AI Enthusiast
+Location: Karachi, Pakistan
+
+Summary:
+I'm a science graduate from the University of Karachi with a strong passion for building beautiful and interactive web experiences. I specialize in using modern frontend technologies like Next.js, TypeScript, Tailwind CSS, and animation libraries like Framer Motion. I'm also deeply interested in Generative AI and its potential in creative web applications.
+
+Skills:
+- Frontend: HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS
+- Design Tools: Figma
+- AI/ML Tools: Python, Generative AI (basic level)
+- Others: Sanity CMS, Redux Toolkit, Framer Motion, Vercel
+
+Projects:
+- Car Rental Website with Admin Dashboard
+- Data Sweeper (Python + Streamlit)
+- 3D Portfolio (in progress)
+
+Interests:
+Generative AI, 3D Web Design, Animation, UI/UX, Open Source, Tech Communities
+
+Languages:
+- English (Intermediate)
+- Urdu (Native)
+
+Certifications:
+- Web Development (CodeWithMosh)
+- Responsive Web Design (freeCodeCamp)
+- Python for Beginners
+
+How can I help you today?
