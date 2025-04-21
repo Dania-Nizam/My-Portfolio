@@ -146,7 +146,7 @@ export default function ProjectsClient() {
 
               {/* Image */}
               <div className="overflow-hidden rounded-xl mb-4">
-                import Image from "next/image";
+                
                 <Image
                   src={project.image}
                   alt={project.title}

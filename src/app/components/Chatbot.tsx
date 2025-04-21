@@ -138,7 +138,7 @@ export default function Chatbot() {
               {isTyping && (
                 <div className="flex justify-start">
                   <div className="flex items-center gap-2">
-                    import Image from "next/image";
+                    
                     <Image
                       src="/dania.jpg"
                       width={24} // equivalent to w-6 (6 * 4px)
