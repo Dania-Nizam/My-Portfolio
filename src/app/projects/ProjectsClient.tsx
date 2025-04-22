@@ -13,7 +13,7 @@ const projects = [
     description:
       "A modern car rental eCommerce app built with Next.js, Tailwind CSS, Redux, and Sanity CMS.",
     tech: ["Next.js", "Sanity", "Tailwind CSS"],
-    image: "/car-website.png",
+    image: "/car-website.PNG",
     link: "https://market-place-hackathon-28pz-h75zex868-dania-nizams-projects.vercel.app",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     description:
       "A sleek and fast eCommerce web app showcasing responsive design and dynamic cart features.",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion,Redux Toolkit,Next Auth"],
-    image: "/ecomerce-website.png",
+    image: "/ecomerce-website.PNG",
     link: "https://ecommerce-website-kwagiypjx-dania-nizams-projects.vercel.app",
   },
   {
@@ -64,7 +64,7 @@ const projects = [
     description:
       "Minimal blog design with CMS integration and beautiful reading experience.",
     tech: ["Next.js", "Tailwind CSS", "Sanity"],
-    image: "/blog-website-image.png",
+    image: "/blog-website-image.PNG",
     link: "https://blog-web-sanity-7zdpy6dh5-dania-nizams-projects.vercel.app",
   },
 
