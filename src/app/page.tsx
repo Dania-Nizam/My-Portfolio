@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 // import { BsFillCloudDownloadFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
-import Loader from "../app/components/Loader"; // Update path if needed
+import Loader from "../components/Loader"; // Update path if needed
 import Typewriter from "typewriter-effect";
-import Chatbot from "./components/Chatbot";
+import Chatbot from "../components/Chatbot";
 import Image from "next/image";
 
 const containerVariants = {
@@ -82,11 +82,11 @@ export default function Home() {
             <div className="relative z-10 rounded-full overflow-hidden border-4 border-white shadow-[0_10px_30px_rgba(0,0,0,0.6)] ring-4 ring-purple-400/40 hover:ring-pink-500/60 hover:shadow-blue-400 transition-all duration-300">
               
               <Image
-                src="/dania.jpg"
+                src="/dania.png"
                 alt="Dania"
                 width={192} // corresponds to md:w-48 (48 * 4 = 192px)
                 height={192} // corresponds to md:h-48 (48 * 4 = 192px)
-                className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full"
+                className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full "
               />
             </div>
           </motion.div>
@@ -100,7 +100,7 @@ export default function Home() {
               initial={{ opacity: 0, filter: "blur(4px)" }}
               animate={{ opacity: 1, filter: "blur(0px)" }}
               transition={{ duration: 1.5 }}
-              className="text-3xl tracking-wider md:text-6xl font-bold font-serif mb-4"
+              className="text-3xl tracking-wider md:text-6xl font-bold font-serif  mb-4"
             >
               {"Hi, I'm  Dania".split("").map((char, i) => (
                 <motion.span
@@ -132,10 +132,13 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    " Frontend Web Developer",
+                    " Frontend Web Developer + AI integrator",
                     " Next.js Developer",
-                    " Generative AI Enthusiast",
-                    " UI/UX Lover",
+                    " Agentic AI Developer",
+                    " Prompt Engineer",
+                    " Tech Enthusiast",
+                    " Full-Stack Developer",
+                    " Mern-Stack Developer",
                   ],
                   autoStart: true,
                   loop: true,

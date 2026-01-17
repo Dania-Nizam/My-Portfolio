@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "../components/Sidebar";
 
 // Load the Poppins font with specific weights
 const poppins = Poppins({

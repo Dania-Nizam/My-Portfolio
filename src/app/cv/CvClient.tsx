@@ -1,6 +1,6 @@
 "use client";
 
-import { FaFlask, FaRobot, FaChalkboardTeacher } from "react-icons/fa";
+import { FaFlask, FaRobot, FaChalkboardTeacher, FaNodeJs } from "react-icons/fa";
 import { FaLanguage, FaHeart, FaCertificate } from "react-icons/fa6";
 import {
   FaEnvelope,
@@ -13,7 +13,7 @@ import {
   FaRocket,
 } from "react-icons/fa";
 
-import { SiStreamlit } from "react-icons/si";
+import { SiExpress, SiMicropython, SiMongodb, SiPydantic, SiStreamlit } from "react-icons/si";
 
 import { FaLaptopCode, FaBrain } from "react-icons/fa6";
 
@@ -38,8 +38,9 @@ import { motion } from "framer-motion";
 // import { BsFillCloudDownloadFill } from "react-icons/bs";
 import { FaCode, FaGraduationCap, FaBriefcase, FaUser } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import Loader from "../components/Loader"; // Adjust the import path if necessary
-import Layout from "../components/Layout";
+import Loader from "../../components/Loader"; // Adjust the import path if necessary
+import Layout from "../../components/Layout";
+import { PiOpenAiLogo, PiOpenAiLogoBold } from "react-icons/pi";
 
 export default function CV() {
   const [loading, setLoading] = useState(true);
@@ -300,6 +301,10 @@ export default function CV() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6 text-gray-200 text-sm md:text-base mt-4">
               {[
                 { icon: <SiHtml5 className="text-orange-500" />, name: "HTML" },
+                { icon: <PiOpenAiLogoBold className="text-white" />, name: "Open AI Agents SDK" },
+                { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
+                { icon: <FaNodeJs className="text-green-700" />, name: "Node Js" },
+                { icon: <SiExpress className="text-white" />, name: "Express Js" },
                 { icon: <SiCss3 className="text-blue-500" />, name: "CSS" },
                 {
                   icon: <SiJavascript className="text-yellow-400" />,
@@ -545,11 +550,11 @@ export default function CV() {
                   links: [
                     {
                       label: "View Code",
-                      href: "https://github.com/yourusername/portfolio",
+                      href: "",
                     },
                     {
                       label: "Live Site",
-                      href: "https://portfolio.vercel.app",
+                      href: "",
                     },
                   ],
                   icon: (

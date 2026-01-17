@@ -15,10 +15,15 @@ import {
   SiCss3,
   SiHtml5,
   SiJavascript,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 import { FaToolbox } from "react-icons/fa";
-import { RiNextjsLine } from "react-icons/ri";
-import Loader from "../components/Loader";
+
+import Loader from "../../components/Loader";
+import {  DiNodejs } from "react-icons/di";
+import { PiOpenAiLogo } from "react-icons/pi";
+import { TbBrandNextjs } from "react-icons/tb";
 
 interface Skill {
   name: string;
@@ -30,9 +35,34 @@ interface Skill {
 const skills: Skill[] = [
   {
     name: "Next.js",
-    icon: RiNextjsLine,
+    icon: TbBrandNextjs,
     color: "#000000",
     description: "React framework for server-rendered apps.",
+  },
+
+  {
+    name: "OpenAI Agents SDK",
+    icon: PiOpenAiLogo,
+    color: "#412991",
+    description: "SDK for building AI-powered agents.",
+  },
+  {
+    name: "Node.js",
+    icon: DiNodejs,
+    color: "#339933",
+    description: "JavaScript runtime for server-side development.",
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+    color: "#47A248",
+    description: "NoSQL database for flexible data storage.",
+  },
+  {
+    name: "Express.js",
+    icon: SiExpress,
+    color: "#000000",
+    description: "Web framework for Node.js.",
   },
   {
     name: "Tailwind CSS",

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import { useState, useEffect } from "react";
-import Loader from "../components/Loader";
+import Loader from "../../components/Loader";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 

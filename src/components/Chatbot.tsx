@@ -114,7 +114,7 @@ export default function Chatbot() {
                     
                     <Image
                       src={
-                        msg.type === "user" ? "/user-avatar.png" : "/dania.jpg"
+                        msg.type === "user" ? "/user-avatar.png" : "/dania.png"
                       }
                       alt="avatar"
                       width={24}
@@ -140,7 +140,7 @@ export default function Chatbot() {
                   <div className="flex items-center gap-2">
                     
                     <Image
-                      src="/dania.jpg"
+                      src="/dania.png"
                       width={24} // equivalent to w-6 (6 * 4px)
                       height={24} // equivalent to h-6 (6 * 4px)
                       alt="avatar"

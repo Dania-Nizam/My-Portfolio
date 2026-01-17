@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 import Link from "next/link";
-import Loader from "../components/Loader";
+import Loader from "../../components/Loader";
 import { FaUser, FaEnvelope, FaPen } from "react-icons/fa";
 
 export default function Contact() {
