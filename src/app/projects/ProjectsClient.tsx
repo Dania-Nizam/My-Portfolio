@@ -35,7 +35,8 @@ const projects = [
       "A modern developer portfolio designed to showcase projects, technical skills, and professional experience.",
     tech: ["Next.js", "Tailwind CSS"],
     image: "/portfolio.png",
-    link: "https://my-portfolio-nr6gr3648-dania-nizams-projects.vercel.app",
+    link: "https://my-portfolio-qgtmt626z-dania-nizams-projects.vercel.app"
+    ,
   },
   {
     title: "Data Sweeper",
