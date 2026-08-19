@@ -198,7 +198,7 @@ export default function CV() {
         "Implemented responsive layouts and animations.",
         "Deployed using Vercel.",
       ],
-      link: "https://my-portfolio-nr6gr3648-dania-nizams-projects.vercel.app",
+      link: "https://my-portfolio-qgtmt626z-dania-nizams-projects.vercel.app",
       linkText: "Live Portfolio",
     },
     {
