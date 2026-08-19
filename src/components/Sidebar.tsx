@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="fixed bottom-10 right-10 z-50 flex flex-col items-center gap-5 px-4 py-5 backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-xl animate-float">
+    <div className="fixed bottom-28 right-10 z-50 flex flex-col items-center gap-5 px-4 py-5 backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-xl animate-float">
       
       {/* Home */}
       <Link href="/" className="group flex flex-col items-center">
